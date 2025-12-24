@@ -1,0 +1,13 @@
+{
+	"tasks": {
+		"main": "deno run --allow-read --allow-write=../aiscript/ --deny-write=../aiscript/.git/ --allow-env src/main.ts"
+	},
+	"fmt": {
+		"useTabs": true,
+		"singleQuote": true
+	},
+	"imports": {
+		"@std/path": "jsr:@std/path@^1.1.3",
+		"ts-morph": "npm:ts-morph@^27.0.2"
+	}
+}
